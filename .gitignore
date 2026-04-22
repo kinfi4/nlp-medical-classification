@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
-*.csv
+notebooks/data/drugs*.csv
+model.safetensors
 
 __pycache__/
 *.py[cod]
@@ -140,6 +141,3 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
-
-**.csv
